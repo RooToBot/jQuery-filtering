@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+	<style type="text/css">
+		.div {
+			height: 50px;
+			width: 50px;
+			margin: 3px;
+			display: inline-block;
+		}
+
+		.red {
+			background: red;
+		}
+
+		.blue {
+			background: blue;
+		}
+
+		.circle {
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+
+	<form action="/action_page.php">
+		color :
+		<select name="cars"  id="select">
+			<option value="red">red</option>
+			<option value="blue">blue</option>
+		</select><br>
+		shape: 
+		<select name="cars"  id="select1">
+			<option value="square">square</option>
+			<option value="circle">circle</option>
+
+		</select>
+	</form>
+
+	<div class="div red square"></div>
+	<div class="div red circle"></div>
+	<div class="div blue square"></div>
+	<div class="div blue circle"></div>
+	<div class="div blue circle"></div>
+	<div class="div red circle"></div>
+	<div class="div red square"></div>
+	<div class="div red circle"></div>
+	<div class="div red circle"></div>
+	<div class="div blue square"></div>
+	<div class="div red circle"></div>
+	<div class="div blue circle"></div>
+
+</body>
+</html>
